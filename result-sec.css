@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container-2{
+    width: 100%;
+    height: 150px;
+    /* background: gray; */
+    display: flex;
+    text-align: center;   
+}
+
+.square{
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(44, 42, 42); */
+    padding: 40px 0px; 
+}
+
+.square p{
+    font-weight: 200;
+    color: #20252E
+}
+
+.fa-phone{
+    
+    color: #20252E;
+    margin: 0px 5px;
+    padding: 10px;
+}
+
+
+/* media-----------------1024, 912, 768, 600, 390*/
+
+@media screen and (max-width:1024px) {
+    .container-2{
+        width: 100%;
+        height: 120px;  
+    }
+
+    .square{
+        width: 100%;
+        height: 100%;
+        /* background-color: rgb(44, 42, 42); */
+        padding: 20px 0px; 
+    }
+    .square h2{
+        font-size: 20px;
+        font-weight: 500;
+   }
+}
+
+/* media-----------------1024, 912, 768, 600, 390*/
+
+@media screen and (max-width:912px) {
+    .container-2{
+        width: 100%;
+        height: 100px;  
+    }
+
+    .square{
+        width: 100%;
+        height: 100%;
+        /* background-color: rgb(44, 42, 42); */
+        padding: 13px 0px; 
+    }
+    .square h2{
+         font-size: 20px;
+         font-weight: 500;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .container-2{
+        width: 100%;
+        height: 200px;
+        /* background: gray; */
+        display: grid;
+        grid-template-columns: auto auto;  
+    }
+    .square{
+        width: 100%;
+        height: 100%;
+        /* background-color: rgb(44, 42, 42); */
+        padding: 16px 0px; 
+    }
+
+    .square h2{
+        font-size: 18px;
+        font-weight: 500;
+   }
+}

@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.social{
+    width: 100%;
+    height: 150px;
+    background-color: #434f2c;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo2{
+    width: 120px;
+    height: 120px;
+    background-image: url(./logo/wite.png);
+    /* background-color: rgba(0,0,0,0.4); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.soc-icons{
+    width: 60%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    /* background-color: rgba(0,0,0,0.4); */
+    justify-content: space-between;
+    padding: 20px;
+}
+.soc-icons i{
+    font-size: 22px;
+    color: whitesmoke;
+}
+.soc-icons i, a{
+    color: whitesmoke;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.soc-icons i, a:hover{
+    padding:  15px;
+    transition: 0.5s;
+}
+
+/* media-----------------1024, 912-x, 768, 600, 390*/
+
+@media screen and (max-width:1024px) {
+    .social{
+        width: 100%;
+        height: 130px;
+    }
+    .logo2{
+        width: 80px;
+        height: 80px;
+    }
+    .soc-icons i, a{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .social{
+        width: 100%;
+        height: 100px;
+    }
+    .logo2{
+        width: 60px;
+        height: 60px;
+    }
+    .soc-icons i, a{
+        font-size: 13px;
+    }
+    .soc-icons i, a:hover{
+        padding:  12px;
+        transition: 0.5s;
+    }
+}

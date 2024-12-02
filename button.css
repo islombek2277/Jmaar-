@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.box-right button{
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    color: whitesmoke;
+    background-color: #434f2c;
+    border: 2px solid whitesmoke;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.box-left2 button{
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    color: whitesmoke;
+    background-color: #434f2c;
+    border: 2px solid whitesmoke;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* button:hover{
+    color:black;
+    background-color: #c8cfbb;
+    transition: 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+} */
+
+
+.controller .btn-left{
+    width: 50%;
+    height: 100%;
+    background-color: #c8cfbb;
+    border: none;
+    transition: 0.3s;
+}
+.controller .btn-right{
+    width: 50%;
+    height: 100%;
+    background-color: #c8cfbb;
+    border: none;
+    transition: 0.3s;
+}
+
+.controller .btn-left:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+    transition: 0.3s; 
+}
+.controller .btn-right:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;  
+    transition: 0.3s;
+}
+
+
+.box-right3 button{
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    color: #434f2c;
+    background-color: whitesmoke;
+    border: 2px solid #434f2c;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.box-right3 button:hover{
+    color:whitesmoke;
+    background-color: #434f2c;
+    transition: 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+}
