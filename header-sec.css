@@ -205,15 +205,16 @@ nav ul li:hover, nav ul li:hover a{
     }
 
     .about{
-        width: 60%;
+        width: 70%;
         height: 40%;
         border-radius: 0px 10px 10px 0px;
         position: absolute;
         left: 0px;
         bottom: 18px;
+
     }
     .about h1{
-        font-size: 28px;
+        font-size: 22px;
         padding: 10px;
         /* margin-left: 40px; */
     }
@@ -245,20 +246,21 @@ nav ul li:hover, nav ul li:hover a{
     }
     .about{
         width: 70%;
-        height: 30%;
+        height: 45%;
+        margin-bottom: 10px;
         position: absolute;
         left: 0px;
         bottom: 10px;
         border-radius: 0px 10px 10px 0px;
     }
     .about h1{
-        text-align: center;
+        /* text-align: center; */
         font-size: 18px;
         padding: 5px;
         /* margin-left: 40px; */
     }
     .about p{
-        text-align: center;
+        /* text-align: center; */
         font-size: 12px;
         padding: 10px;
         /* margin-left: 40px; */
@@ -317,7 +319,7 @@ nav ul li:hover, nav ul li:hover a{
             border-radius: 6px;
         }
         .about h1{
-            text-align: center;
+            
             align-items: center;
             justify-content: center;
             font-size: 13px;
@@ -325,7 +327,7 @@ nav ul li:hover, nav ul li:hover a{
             /* margin-left: 5px; */
         }
         .about p{
-            text-align: center;
+            padding: 5px;
             font-size: 10px;
             padding: 10px;
             /* margin-left: 10px; */
