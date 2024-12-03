@@ -51,3 +51,10 @@ leftBtn4.addEventListener('click', ()=> {
     horizontScroll4.style.scrollBehavior = "smooth"
     horizontScroll4.scrollLeft -= 520;
 });
+
+const Ul = document.querySelector("ul")
+console.log(Ul);
+
+const Toggle = () =>{
+    Ul.classList.toggle("toggle")
+}
