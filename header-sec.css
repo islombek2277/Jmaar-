@@ -220,39 +220,40 @@ nav ul li:hover, nav ul li:hover a{
 
 @media screen and (max-width:600px){
     nav{
-        width: 55%;
-        height: 40px;
+        width: 50%;
+        height: 35px;
         position: absolute;
         right: 20px;
         top: 30px;
     }
     nav ul li a{
-        font-size: 12px;
+        font-size: 10px;
+        letter-spacing: 1px;
     }
    
     .bgfon{
-        height: 600px;
+        height: 400px;
     }
     .parda{
-        height: 600px;
+        height: 400px;
     }
     .about{
         margin: 10px;
         width: 95%;
-        height: 25%;
+        height: 22%;
         position: absolute;
         bottom: 10px;
         border-radius: 10px 10px 10px 10px;
     }
     .about h1{
         text-align: center;
-        font-size: 25px;
+        font-size: 18px;
         padding: 5px;
         /* margin-left: 40px; */
     }
     .about p{
         text-align: center;
-        font-size: 15px;
+        font-size: 12px;
         padding: 10px;
         /* margin-left: 40px; */
     }
@@ -270,10 +271,10 @@ nav ul li:hover, nav ul li:hover a{
 
         .bgfon{
         
-            height: 500px;
+            height: 300px;
         }
         .parda{
-            height: 500px;
+            height: 300px;
         }
 
         .logo{
@@ -287,9 +288,10 @@ nav ul li:hover, nav ul li:hover a{
             position: absolute;
             right: 10px;
             top: 20px;
+            border-radius: 8px;
         }
         nav ul li a{
-            font-size: 8px;
+            font-size: 7px;
             letter-spacing: 1px;
         }
        
@@ -307,7 +309,7 @@ nav ul li:hover, nav ul li:hover a{
             height: 20%;
             position: absolute;
             bottom: 10px;
-            border-radius: 10px 10px 10px 10px;
+            border-radius: 6px;
         }
         .about h1{
             text-align: center;
@@ -319,7 +321,7 @@ nav ul li:hover, nav ul li:hover a{
         }
         .about p{
             text-align: center;
-            font-size: 8px;
+            font-size: 10px;
             padding: 10px;
             margin-left: 10px;
         }
