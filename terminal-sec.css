@@ -164,7 +164,7 @@
         display:grid;
     }
     .inbox-l, .inbox-r{
-        padding: 0px 10px;
+        padding: 10px 10px;
         width: 300px;   /* --------*/
         height: 300px;
         align-content:space-evenly ;
@@ -181,12 +181,12 @@
         
     }
     .inbox-l h1{
-        font-size: 18px;
+        font-size: 16px;
     }
     .inbox-l h4{
-        font-size: 12px;
+        font-size: 10px;
     }
     .inbox-l p{
-        font-size: 10px;
+        font-size: 8px;
     }
 }

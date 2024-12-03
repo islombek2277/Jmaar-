@@ -243,7 +243,6 @@
         font-size: 20px;
         display: grid;
         grid-template-columns: auto;
-        background-color: #7e8b64;
     }
 
     .header-icons i h4{

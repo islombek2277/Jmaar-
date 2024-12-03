@@ -81,3 +81,46 @@
         transition: 0.5s;
     }
 }
+
+@media screen and (max-width:600px) {
+    .logo2{
+        display: none;
+    }
+    .social{
+        width: 100%;
+        height: 150px;
+        background-color: #434f2c;
+        display: flex;
+        
+    }
+    .soc-icons{
+        width: 100%;
+        height: 100%;
+        justify-content: space-evenly;
+    }
+    .soc-icons i{
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width:390px) {
+
+    .logo2{
+        display: none;
+    }
+    .social{
+        width: 100%;
+        height: 150px;
+        background-color: #434f2c;
+        display: flex;
+        
+    }
+    .soc-icons{
+        width: 100%;
+        height: 100%;
+        justify-content: space-evenly;
+    }
+    .soc-icons i{
+        font-size: 20px;
+    }
+}

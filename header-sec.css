@@ -207,6 +207,10 @@ nav ul li:hover, nav ul li:hover a{
     .about{
         width: 60%;
         height: 40%;
+        border-radius: 0px 10px 10px 0px;
+        position: absolute;
+        left: 0px;
+        bottom: 18px;
     }
     .about h1{
         font-size: 28px;
@@ -240,12 +244,12 @@ nav ul li:hover, nav ul li:hover a{
         height: 400px;
     }
     .about{
-        margin: 10px;
-        width: 95%;
+        width: 70%;
         height: 30%;
         position: absolute;
+        left: 0px;
         bottom: 10px;
-        border-radius: 10px 10px 10px 10px;
+        border-radius: 0px 10px 10px 0px;
     }
     .about h1{
         text-align: center;
@@ -261,15 +265,11 @@ nav ul li:hover, nav ul li:hover a{
     }
 }
 
-
-
-
-
-
-
-
-
     @media screen and (max-width:390px){
+
+        .logo{
+            background-color: rgba(0,0,0,0.2);
+        }
 
         .bgfon{
         
@@ -280,6 +280,7 @@ nav ul li:hover, nav ul li:hover a{
         }
 
         .logo{
+            margin-left:  10px;
             width: 100px;
             height: 150px;
         }
@@ -307,10 +308,12 @@ nav ul li:hover, nav ul li:hover a{
 
         .about{
             /* margin: 10px; */
-            width: 95%;
-            height: 100px;
+            width: 70%;
+            height: 150px;
             position: absolute;
+            left: 0px;
             bottom: 10px;
+            border-radius: 0px 10px 10px 0px;
             border-radius: 6px;
         }
         .about h1{
