@@ -201,6 +201,7 @@ nav ul li:hover, nav ul li:hover a{
         width: 120px;
         height: 170px;
     }
+
     .about{
         width: 60%;
         height: 40%;
@@ -218,34 +219,18 @@ nav ul li:hover, nav ul li:hover a{
 
 
 @media screen and (max-width:600px){
-    nav .bars{
-        display: block;
-        font-size: 20px;
-    }
-    nav ul{
-        line-height: 1.5px;
-        letter-spacing: 6px;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        gap: 70px;
-        border-radius: 10px;
-        background-color: rgba(0,0,0,0.3);
-        backdrop-filter: blur(8px);
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    nav{
+        width: 55%;
+        height: 40px;
         position: absolute;
-        width: 100%;
-        left: 120%;
-        padding: 30px 10px;
-        transition: 0.7s;
-        top: 100px;
+        right: 20px;
+        top: 30px;
     }
-    nav ul.toggle{
-        left: 0;
+    nav ul li a{
+        font-size: 12px;
     }
-
+   
     .bgfon{
-    
         height: 600px;
     }
     .parda{
@@ -283,33 +268,6 @@ nav ul li:hover, nav ul li:hover a{
 
     @media screen and (max-width:390px){
 
-
-        nav .bars{
-            display: block;
-            font-size: 20px;
-        }
-        nav ul{
-            line-height: 1.5px;
-            letter-spacing: 6px;
-            text-align: center;
-            display: flex;
-            flex-direction: column;
-            gap: 50px;
-            border-radius: 10px;
-            background-color: rgba(0,0,0,0.3);
-            backdrop-filter: blur(8px);
-            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-            position: absolute;
-            width: 100%;
-            left: 120%;
-            padding: 30px 10px;
-            transition: 0.7s;
-            top: 100px;
-        }
-        nav ul.toggle{
-            left: 0;
-        }
-    
         .bgfon{
         
             height: 500px;
@@ -317,6 +275,32 @@ nav ul li:hover, nav ul li:hover a{
         .parda{
             height: 500px;
         }
+
+        .logo{
+            width: 100px;
+            height: 150px;
+        }
+
+        nav{
+            width: 45%;
+            height: 30px;
+            position: absolute;
+            right: 10px;
+            top: 20px;
+        }
+        nav ul li a{
+            font-size: 8px;
+            letter-spacing: 1px;
+        }
+       
+        .bgfon{
+            height: 600px;
+        }
+        .parda{
+            height: 600px;
+        }
+
+
         .about{
             /* margin: 10px; */
             width: 95%;
@@ -329,13 +313,13 @@ nav ul li:hover, nav ul li:hover a{
             text-align: center;
             align-items: center;
             justify-content: center;
-            font-size: 15px;
+            font-size: 13px;
             padding: 5px;
             margin-left: 10px;
         }
         .about p{
             text-align: center;
-            font-size: 10px;
+            font-size: 8px;
             padding: 10px;
             margin-left: 10px;
         }
