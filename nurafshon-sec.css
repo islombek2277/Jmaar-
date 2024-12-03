@@ -146,7 +146,8 @@
     .box-right{
         width: 100%;
         height: 100%;
-
+        justify-content: center;
+        align-items: center;
     }
     .box-left{
         width: 100%;
@@ -173,14 +174,14 @@
         width: 300px;   /* --------*/
         height: 300px;
         align-content:space-evenly ;
-        
+
         justify-content: center;
         
     }
     .box-right{
         width: 100%;
         height: 100%;
-        /* background-color: #c8cfbb; */
+
     }
     .box-left{
         padding: 5px;
