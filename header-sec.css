@@ -321,7 +321,7 @@ nav ul li:hover, nav ul li:hover a{
     }
     .about p{
         /* text-align: center; */
-        font-size: 12px;
+        font-size: 10px;
         padding: 10px;
         /* margin-left: 40px; */
     }
@@ -368,7 +368,7 @@ nav ul li:hover, nav ul li:hover a{
         .about{
             /* margin: 10px; */
             width: 80%;
-            height: 150px;
+            height: 160px;
             margin-left: 0px;
             position: absolute;
             left: 0px;
@@ -387,7 +387,7 @@ nav ul li:hover, nav ul li:hover a{
         .about p{
             padding: 5px;
             font-size: 10px;
-            margin: 10px;
+            margin: 8px;
             /* margin-left: 10px; */
         }
 }
