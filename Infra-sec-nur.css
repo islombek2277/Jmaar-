@@ -108,6 +108,7 @@
         font-size: 25px;
         display: grid;
         grid-template-columns: auto;
+        font-family: "Montserrat", sans-serif;
     }
     .header-icons i img{
         width: 70px;
@@ -116,7 +117,9 @@
     }
 
     .header-icons i h4{
-        font-size: 18px;
+        font-size: 22px;
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
     }
 }
 
@@ -158,6 +161,7 @@
 
     .header-icons i h4{
         font-size: 15px;
+        font-family: "Montserrat", sans-serif;
     }
 }
 
@@ -196,6 +200,7 @@
 
     .header-icons i h4{
         font-size: 15px;
+        font-family: "Montserrat", sans-serif;
     }
     
 }
@@ -247,6 +252,7 @@
     .header h2{
         font-size: 16px;
         /* margin-top: 5px; */
+        font-family: "Montserrat", sans-serif;
     }
     .header-icons{
         width: 100%;
