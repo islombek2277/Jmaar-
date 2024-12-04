@@ -29,37 +29,39 @@
     justify-content: center;
     display: grid;
     grid-template-columns: auto auto auto auto;
-    gap: 30px;
+    gap: 10px;
+    /* background-color: #7e8b64; */
 }
 
 .header h2{
-    font-size: 32px;
-    padding: 23px;
+    font-size: 28px;
+    padding: 20px;
     color: #20252E;
 }
-/* .header p{
-    font-weight: 200;
-    text-align:center;
-    padding: 10px;
-    color: whitesmoke;
-    color: #20252E;
-    background-color: rgba(0,0,0,0.4);
-} */
 
 
 .header-icons i{
-    padding-top: 15px;
-    width: 230px;
+    padding-top: px;
+    width: 250px;
     height: 150px;
     font-size: 35px;
-    background-color: whitesmoke;
+    /* background-color: rgb(167, 112, 112); */
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 1fr,
+    1fr;
     transition: 0.5s;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-icons i img{
+    width: 100px;
+    background-color: whitesmoke;
+    margin-left: 30px;
 }
 
 .header-icons i h4{
-    font-size: 22px;
+    font-size: 18px;
     color: #20252E;
     font-family: "Montserrat", sans-serif;
     text-transform:capitalize;
@@ -67,7 +69,7 @@
 
 .header-icons i:hover{
     box-shadow: #7e8b64 0px 5px 15px;
-    padding:  10px;
+    padding:  5px;
     display: grid;
     grid-template-columns: auto;
     /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;    */
@@ -107,6 +109,11 @@
         display: grid;
         grid-template-columns: auto;
     }
+    .header-icons i img{
+        width: 70px;
+        background-color: whitesmoke;
+        margin-left: 30px;
+    }
 
     .header-icons i h4{
         font-size: 18px;
@@ -143,6 +150,11 @@
         display: grid;
         grid-template-columns: auto;
     }
+    .header-icons i img{
+        width: 50px;
+        background-color: whitesmoke;
+        margin-left: 30px;
+    }
 
     .header-icons i h4{
         font-size: 15px;
@@ -166,6 +178,11 @@
         display: grid;
         grid-template-columns: auto auto auto auto;
         gap: 10px;
+    }
+    .header-icons i img{
+        width: 50px;
+        background-color: whitesmoke;
+        margin-left: 30px;
     }
 
     .header-icons i{
@@ -201,6 +218,11 @@
         grid-template-columns: auto auto ;
         gap: 10px;
     }
+    .header-icons i img{
+        width: 30px;
+        background-color: whitesmoke;
+        margin-left: 30px;
+    }
 
     .header-icons i{
         padding-top: 10px;
@@ -234,6 +256,11 @@
         display: grid;
         grid-template-columns: auto auto;
         gap: 10px;
+    }
+    .header-icons i img{
+        width: 30px;
+        background-color: whitesmoke;
+        margin-left: 40px;
     }
 
     .header-icons i{
