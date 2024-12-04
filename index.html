@@ -17,6 +17,10 @@
     
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
+
+<!-- swiper-link  -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+
 <!-- icon-link -->
 <link rel="icon" type="x-icon" href="./logo/wite.png">
 
@@ -88,8 +92,22 @@
     <div class="container-3">
 
         <div class="box-left">
-            
             <div class="inbox">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="./nurafshon/1.jpg"></div>
+                        <div class="swiper-slide"><img src="./nurafshon/2.jpg"></div>
+                        <div class="swiper-slide"><img src="./nurafshon/3.jpg"></div>
+                        <div class="swiper-slide"><img src="./nurafshon/4.jpg"></div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Add Navigation -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+            <!-- <div class="inbox">
                  <div class="kantener" >
                     <div class="gallery">
                         <span><img src="./nurafshon/1.jpg"></span>
@@ -108,7 +126,7 @@
                     <button class="btn-left" id="leftBtn"><i class="fa fa-angle-double-left"></i></button>
                     <button class="btn-right" id="rightBtn"><i class="fa fa-angle-double-right"></i></button>
                 </div>
-            </div>
+            </div> -->
 
         </div>
 
@@ -393,7 +411,29 @@
     </div>
 
 
+    <script src="./script.js"></script>
 
-        <script src="./script.js"></script>
+
+
+    <!-- // -------------------- swiper js start --------------- -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script>
+        
+    const swiper = new Swiper('.swiper', {
+        direction: 'horizontal',
+        loop: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        grabCursor: true,
+});
+
+</script>
+<!-- // -------------------- swiper js end --------------- -->
 </body>
 </html>
