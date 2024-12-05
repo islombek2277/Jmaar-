@@ -1,0 +1,112 @@
+.navbar{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    max-width: 600px;
+}
+
+.dropdown{
+    max-width: 600px;
+    position: relative;
+    margin: 2em;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    /* align-items: center; */
+    /* background-color: #9fa5b5; */
+}
+
+.dropdown *{
+    box-sizing: border-box;
+}
+
+.select{
+    min-width: 250px;
+    gap: 2px;
+    background-color: rgba(0,0,0,0.3);
+    backdrop-filter: blur(8px);
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 2px #2a2f3b solid; */
+    border-radius: 0.5em;
+    padding: 1em;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.select-clicked{
+    border: 0px rgb(199, 207, 187) solid;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.select:hover{
+    background-color: rgba(0,0,0,0.3);
+    box-shadow: 0 0 0.8em black;
+}
+
+.caret{
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px solid #fff;
+    transition: 0.3s;
+    
+}
+
+.caret-rotate{
+    transform: rotate(180deg);
+
+}
+
+
+.menu{
+    text-align: center;
+    list-style: none;
+    padding: 0.2em 0.5em;
+    backdrop-filter: blur(8px);
+    background-color: rgba(0,0,0,0.3);
+    /* border: 1px #363a43 solid; */
+    box-shadow: 0 0.5em 1em rgb(0, 0, 0, 0.2);
+    border-radius: 0.5em;
+    color: #9fa5b5;
+    position: absolute;
+    top: 4em;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    opacity: 0;
+    display: none;
+    transition: 0.2s;
+    z-index: 1;
+}
+
+.menu li{
+    /* border-bottom: 1px solid rgb(66, 79, 44); */
+    color: whitesmoke;
+    padding: 0.7em 0.5em;
+    margin: 0.3em 0;
+    border-radius: 0.5em;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.menu li:hover {
+    box-shadow: 0 0 0.8em black;
+    /* background-color: rgba(0,0,0,0.3); */
+    transition: 0.3s;
+    padding-left: 10px;
+}
+
+/* .active{
+    background-color: rgba(0,0,0,0.3);
+
+} */
+
+.menu-open{
+    display: block;
+    opacity: 1;
+}

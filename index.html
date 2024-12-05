@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="terminal-sec.css">
     <link rel="stylesheet" href="./aparts.css">
     <link rel="stylesheet" href="./social-sec.css">
+    <link rel="stylesheet" href="./navbar.css">
 
     <!-- font-link -->
     
@@ -39,15 +40,25 @@
         <div class="parda">
 
             <div class="logo"></div>
-            <nav>
-                    <ul>
-                        <li><a href="#jil-complex">ж-комплекс</a></li>
-                        <li><a href="#fabrika">фабрика</a></li>
-                        <li><a href="#zavod">завод</a></li>
-                        <li><a href="#kontact">контакт</a></li>
-                    </ul> 
-            </nav>
 
+
+        <div class="navbar">
+            <div class="dropdown">
+                <div class="select">
+                    <span class="selected">портфолио</span>
+                    <div class="caret"></div>
+                </div>
+                <ul class="menu">
+                    <li><a href="#jil-complex">Жилой комплекс Нурафшон</a></li>
+                    <li><a href="#terminal">Таможный терминал</a></li>
+                    <li><a href="#fabrika">FACTORY AHK производствa мебели</a></li>
+                    <li><a href="#zavod">Nature Grow производствa мебели</a></li>
+                </ul>
+                <div class="select">
+                    <span class="selected"><a href="#kontact">контакт</a></span>
+                </div>
+            </div>
+        </div>
 
             <div class="about">
                 <h1>Компания по строительству коммерческих объектов</h1>
@@ -168,7 +179,7 @@
 
                         <!-- terminal-sec -->
     
-    <div class="container-5">
+    <div class="container-5" id="terminal">
         <div class="box-left2">  
             <div class="inbox-l">
                 <h1>Таможный терминал</h1>
@@ -418,6 +429,7 @@
 
 
     <script src="./script.js"></script>
+    <script src="./navbar.js"></script>
 
 
 
