@@ -82,6 +82,18 @@ body p, .a, i{
     color: #fff;
 }
 
+@media screen and (max-width:768px) {
+
+.swiper {
+    width: 100%;
+    max-width: 400px; /* Maksimal kenglik */
+    height: 200px; /* Rasm balandligi */
+    position: relative;
+    overflow: hidden; /* Qirralarni yashirish */
+    box-shadow: 0px 0px 10px black;
+}
+}
+
 
 /* swiper css end  */
 
