@@ -20,6 +20,10 @@
     box-sizing: border-box;
 }
 
+.select, .select a{
+    font-size: 18px;
+}
+
 .select{
     min-width: 250px;
     gap: 2px;
@@ -40,6 +44,7 @@
 .select-clicked{
     border: 0px rgb(199, 207, 187) solid;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: whitesmoke;
 }
 
 .select:hover{
@@ -63,7 +68,7 @@
 }
 
 
-.menu{
+.menu {
     text-align: center;
     list-style: none;
     padding: 0.2em 0.5em;
@@ -109,4 +114,92 @@
 .menu-open{
     display: block;
     opacity: 1;
+}
+
+
+
+/* media-----------------1024, 912-x, 768, 600, 390*/
+
+@media screen and (max-width:768px) {
+
+    .select, .select a{
+        font-size: 18px;
+    }
+    .navbar{
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        max-width: 400px;
+    }
+    
+    .dropdown{
+        max-width: 400;
+        
+    }
+
+    .select{
+        min-width: 160px;
+        gap: 2px;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    .select, .select a{
+        font-size: 12px;
+    }
+
+    .navbar{
+        position: absolute;
+        right: 6px;
+        top: 6px;
+        max-width: 270px;
+    }
+    
+    .dropdown{
+        max-width: 250px;
+    }
+    .menu {
+        max-width: 250px;
+     }
+     
+    .select{
+        min-width: 100px;
+        gap: 2px;
+    }
+
+}
+
+@media screen and (max-width:400px) {
+
+    .select, .select a{
+        font-size: 12px;
+    }
+
+    .navbar{
+        position: absolute;
+        right: 6px;
+        top: 6px;
+        max-width: 220px;
+    }
+    
+    .dropdown{
+        max-width: 200px;
+        margin: 10px;
+    }
+    .menu {
+        max-width: 200px;
+     }
+     
+    .select{
+        min-width: 90px;
+        gap: 2px;
+    }
+
+    .menu li{
+        padding: 0.7em 0.5em;
+        margin: 0.1em 0;
+    }
+
 }

@@ -42,8 +42,8 @@ body p, .a, i{
     justify-content: center;
     align-items: center;
     font-size: 20px;
-    color: #fff;
-    background: #007aff;
+    color: #434f2c;
+    background: #434f2c;
 }
 .swiper-slide img{
     width: 100%;
@@ -64,7 +64,8 @@ body p, .a, i{
     margin-top: 10px; /* Tugmalar orasidagi bo'shliq */
 }
 .swiper-button-next:hover, .swiper-button-prev:hover {
-    background: #005bb5; /* Hover effekti */
+    /* background: #434f2c; Hover effekti */
+    color: #434f2c;
 }
 .swiper-pagination {
     position: absolute;
@@ -73,10 +74,12 @@ body p, .a, i{
     text-align: center; /* Markazlashtirish */
 }
 .swiper-pagination-bullet {
-    background: #007aff; /* Pagination nuqtalari rangi */
+    background: #434f2c; /* Pagination nuqtalari rangi */
+    color: #fff;
 }
 .swiper-pagination-bullet-active {
-    background: #005bb5; /* Faol nuqta rangi */
+    background: #434f2c; /* Faol nuqta rangi */
+    color: #fff;
 }
 
 
@@ -203,16 +206,6 @@ nav ul li:hover, nav ul li:hover a{
 
 
 @media screen and (max-width:1024px) {
-    nav{
-        width: 50%;
-        height: 60px;
-        position: absolute;
-        right: 30px;
-        top: 50px;
-    }
-    nav ul li a{
-        font-size: 18px;
-    }
 
     .logo{
         width: 170px;
@@ -233,22 +226,12 @@ nav ul li:hover, nav ul li:hover a{
 @media screen and (max-width:768px) {
     .bgfon{
     
-        height: 600px;
+        height: 700px;
     }
     .parda{
-        height: 600px;
+        height: 700px;
     }
     
-    nav{
-        width: 50%;
-        height: 60px;
-        position: absolute;
-        right: 20px;
-        top: 30px;
-    }
-    nav ul li a{
-        font-size: 15px;
-    }
 
     .logo{
         width: 120px;
@@ -279,35 +262,25 @@ nav ul li:hover, nav ul li:hover a{
 @media screen and (max-width:600px){
     
     .logo{
+        margin-left:  10px;
         background-color: rgba(0,0,0,0.2);
-    }
-
-    nav{
-        width: 50%;
-        height: 35px;
-        position: absolute;
-        right: 20px;
-        top: 30px;
-    }
-    nav ul li a{
-        font-size: 10px;
-        letter-spacing: 1px;
     }
    
     .bgfon{
-        height: 400px;
+        height: 600px;
     }
     .parda{
-        height: 400px;
+        height: 600px;
     }
     .about{
         width: 80%;
-        height: 45%;
+        height: 35%;
         margin-bottom: 10px;
         position: absolute;
         left: 0px;
         bottom: 10px;
         border-radius: 0px 10px 10px 0px;
+        padding: 10px;
     }
     .about h1{
         /* text-align: center; */
@@ -325,14 +298,6 @@ nav ul li:hover, nav ul li:hover a{
 
     @media screen and (max-width:400px){
 
-        .bgfon{
-        
-            height:300px;
-        }
-        .parda{
-            height: 300px;
-        }
-
         .logo{
             margin-left:  10px;
             width: 100px;
@@ -340,24 +305,12 @@ nav ul li:hover, nav ul li:hover a{
             background-color: rgba(0,0,0,0.2);
         }
 
-        nav{
-            width: 55%;
-            height: 25px;
-            position: absolute;
-            right: 10px;
-            top: 20px;
-            border-radius: 8px;
-        }
-        nav ul li a{
-            font-size: 8px;
-            letter-spacing: 1px;
-        }
        
         .bgfon{
-            height: 600px;
+            height: 500px;
         }
         .parda{
-            height: 600px;
+            height: 500px;
         }
 
 

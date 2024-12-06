@@ -43,7 +43,7 @@
     transition: 0.5s;
 }
 
-.soc-icons i, a:hover{
+.soc-icons i, .soc-icons a:hover{
     padding:  15px;
     transition: 0.5s;
 }
@@ -76,7 +76,7 @@
     .soc-icons i, a{
         font-size: 13px;
     }
-    .soc-icons i, a:hover{
+    .soc-icons i, .soc-icons a:hover{
         padding:  12px;
         transition: 0.5s;
     }
