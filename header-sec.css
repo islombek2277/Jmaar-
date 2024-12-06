@@ -103,57 +103,6 @@ body p, .a, i{
 
 
 
-/* nav{
-    width: 50%;
-    height: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    
-    border-radius: 10px;
-    background-color: rgba(0,0,0,0.3);
-    backdrop-filter: blur(8px);
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    position: absolute;
-    right: 50px;
-    top: 70px;
-}
-
-nav ul li a{
-    font-size: 20px;
-    color: whitesmoke;
-    font-weight: 300;
-    font-family: "Montserrat", sans-serif;
-    letter-spacing: 3px;
-    transition: 0.5s;
-}
-
-nav ul{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-
-nav .bars{
-    display: none;
-    font-size: 35px;
-    color: #C7AE6A;
-}
-
-.bars:hover{
-    color: #715915;
-    transition: 0.4s;
-} 
-
-nav ul li:hover, nav ul li:hover a{
-        color: whitesmoke;
-        transition: 0.4s;
-        
-} */
-
-
 
 .logo{
     width: 200px;
@@ -176,14 +125,16 @@ nav ul li:hover, nav ul li:hover a{
 
 
 .about{
-    width: 60%;
-    height: 40%;
+    width: 70%;
+    height: 50%;
     backdrop-filter: blur(10px);
     background-color: rgba(0,0,0,0.3);
-    margin: 70px 70px 70px 0px;
+    /* margin: 70px 70px 30px 0px; */
     border-radius: 0px 10px 10px 0px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-
+    position: absolute;
+    left: 0px;
+    bottom: 30px;
 }
 
 .about h1{
@@ -213,12 +164,19 @@ nav ul li:hover, nav ul li:hover a{
     }
     .about h1{
         font-size: 32px;
-        padding: 20px;
+        padding: 15px;
         /* margin-left: 40px; */
     }
     .about p{
         padding: 20px;
         /* margin-left: 40px; */
+    }
+    .about{
+        width: 80%;
+        height: 50%;
+        position: absolute;
+        left: 0px;
+        bottom: 30px;
     }
 }
 
@@ -240,11 +198,11 @@ nav ul li:hover, nav ul li:hover a{
 
     .about{
         width: 70%;
-        height: 40%;
+        height: 50%;
         border-radius: 0px 10px 10px 0px;
         position: absolute;
         left: 0px;
-        bottom: 18px;
+        bottom: 20px;
 
     }
     .about h1{
@@ -274,7 +232,7 @@ nav ul li:hover, nav ul li:hover a{
     }
     .about{
         width: 80%;
-        height: 35%;
+        height: 40%;
         margin-bottom: 10px;
         position: absolute;
         left: 0px;
