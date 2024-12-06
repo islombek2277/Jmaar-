@@ -141,15 +141,15 @@ body p, .a, i{
     /* font-size: 42px; */
     text-align:start;
     padding: 15px;
-    margin-left: 60px;
+    margin-left: 40px;
     color: whitesmoke;
 }
 .about p{
     /* font-weight: 300; */
     /* font-size: 20px; */
     text-align:start;
-    padding: 15px;
-    margin-left: 60px;
+    /* padding: 15px; */
+    margin-left: 40px;
     color: whitesmoke;
 }
 
@@ -163,12 +163,12 @@ body p, .a, i{
         height: 220px;
     }
     .about h1{
-        font-size: 32px;
+        font-size: 30px;
         padding: 15px;
         /* margin-left: 40px; */
     }
     .about p{
-        padding: 20px;
+        padding: 13px;
         /* margin-left: 40px; */
     }
     .about{
@@ -184,10 +184,10 @@ body p, .a, i{
 @media screen and (max-width:768px) {
     .bgfon{
     
-        height: 700px;
+        height: 800px;
     }
     .parda{
-        height: 700px;
+        height: 800px;
     }
     
 
@@ -197,7 +197,7 @@ body p, .a, i{
     }
 
     .about{
-        width: 70%;
+        width: 80%;
         height: 50%;
         border-radius: 0px 10px 10px 0px;
         position: absolute;
@@ -225,31 +225,33 @@ body p, .a, i{
     }
    
     .bgfon{
-        height: 600px;
+        height: 700px;
     }
     .parda{
-        height: 600px;
+        height: 700px;
     }
     .about{
         width: 80%;
         height: 40%;
         margin-bottom: 10px;
+        text-align: center;
+        align-items: center;
         position: absolute;
         left: 0px;
         bottom: 10px;
         border-radius: 0px 10px 10px 0px;
-        padding: 10px;
+
     }
     .about h1{
         /* text-align: center; */
         font-size: 18px;
-        padding: 10px;
+        padding: 5px;
         /* margin-left: 40px; */
     }
     .about p{
         /* text-align: center; */
         font-size: 10px;
-        padding: 10px;
+        padding: 5px;
         /* margin-left: 40px; */
     }
 }
@@ -265,36 +267,36 @@ body p, .a, i{
 
        
         .bgfon{
-            height: 500px;
+            height: 600px;
         }
         .parda{
-            height: 500px;
+            height: 600px;
         }
 
 
         .about{
             /* margin: 10px; */
             width: 80%;
-            height: 160px;
+            height: 40%;
             margin-left: 0px;
             position: absolute;
             left: 0px;
             bottom: 10px;
             border-radius: 0px 10px 10px 0px;
-            border-radius: 6px;
+            
         }
         .about h1{
             
             align-items: center;
             justify-content: center;
             font-size: 13px;
-            margin: 10px;
+            margin: 5px;
             /* margin-left: 5px; */
         }
         .about p{
-            padding: 5px;
+            
             font-size: 10px;
-            margin: 8px;
+            margin: 5px;
             /* margin-left: 10px; */
         }
 }
