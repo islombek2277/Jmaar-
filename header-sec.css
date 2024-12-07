@@ -28,7 +28,11 @@ body p, .a, i{
     text-transform: capitalize;
 }
 
+
+
+
 /* swiper css start  */
+
 .swiper {
     width: 100%;
     max-width: 800px; /* Maksimal kenglik */
@@ -86,13 +90,26 @@ body p, .a, i{
 
 .swiper {
     width: 100%;
-    max-width: 400px; /* Maksimal kenglik */
-    height: 200px; /* Rasm balandligi */
+    max-width: 300px; /* Maksimal kenglik */
+    height: 180px; /* Rasm balandligi */
     position: relative;
     overflow: hidden; /* Qirralarni yashirish */
     box-shadow: 0px 0px 10px black;
 }
 }
+
+@media screen and (max-width:600px) {
+
+    .swiper {
+        width: 100%;
+        max-width: 300px; /* Maksimal kenglik */
+        max-height: 330px; /* Rasm balandligi */
+        position: relative;
+        overflow: hidden; /* Qirralarni yashirish */
+        box-shadow: 0px 0px 10px black;
+    }
+    }
+
 
 
 /* swiper css end  */

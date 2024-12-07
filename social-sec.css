@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
 }
 
 .social{
@@ -36,6 +38,7 @@
 .soc-icons i{
     font-size: 22px;
     color: whitesmoke;
+    
 }
 .soc-icons i, a{
     color: whitesmoke;

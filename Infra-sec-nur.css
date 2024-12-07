@@ -7,7 +7,6 @@
 .container-4{
     width: 100%;
     height: 360px;
-    background-color: #434f2c;
     gap: 10px;
     /* padding: 10px; */
 }
@@ -24,14 +23,19 @@
 .header-icons{
     width: 100%;
     height: 70%;
-    /* background-color: gray; */
+    background-color: whitesmoke;
     text-align:center;
     /* align-items: center; */
     justify-content:space-evenly;
     display: grid;
     grid-template-columns: auto auto auto auto;
-    gap: 12px;
-    background-color: whitesmoke;
+    gap: 8px;
+}
+
+.pik{
+    /* background-color: rgba(0,0,0,0.4); */
+    width: 200px;
+    height: 100px;
 }
 
 .header h2{
@@ -42,10 +46,9 @@
 .header-icons img{
     max-width: 100px;
 }
-.header-icons .pik img{
+/* .header-icons .pik img{
     width: 130px;
-    /* background-color: #7e8b64; */
-}
+} */
 
 .header-icons h4{
     font-size: 18px;
@@ -83,7 +86,10 @@
         grid-template-columns: auto auto auto auto;
         gap: 20px;
     }
-
+    .pik{
+        width: 120px;
+        height: 100px;
+    }
    
     .header-icons img{
         max-width: 50px;
@@ -124,7 +130,11 @@
         gap: 20px;
     }
 
-   
+    .pik{
+        width: 100px;
+        height: 80px;
+    }
+
     .header-icons img{
         max-width: 40px;
         background-color: whitesmoke;
@@ -167,18 +177,22 @@
         gap: 2px;
     }
 
-    .header-icons img{
+    /* .header-icons img{
         max-width: 40px;
         background-color: whitesmoke;
-    }
+    } */
 
     .header-icons .pik h4{
         font-size: 13px;
         font-family: "Montserrat", sans-serif;
         font-style: normal;
     }
+
+
     .pik{
-        margin: 5px;
+        width: 120px;
+        height: 10px;
+        margin: 10px;
     }
 
 }

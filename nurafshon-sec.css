@@ -72,7 +72,7 @@
 }
 
 .inbox{
-    padding: 0px 15px;
+    padding: 15px 15px;
     width: 550px;   /* --------*/
     height: 500px;
     /* background-color: rgba(0,0,0,0.4); */
@@ -167,9 +167,21 @@
         
     }
     .inbox h1{
-        font-size: 22px;
+        font-size: 20px;
+    }
+    .inbox h4{
+        font-size: 16px;
     }
     .inbox p{
+        font-size: 14px;
+    }
+    .inbox-l h1{
+        font-size: 20px;
+    }
+    .inbox-l h4{
+        font-size: 16px;
+    }
+    .inbox-l p{
         font-size: 14px;
     }
 }
@@ -210,7 +222,21 @@
     .inbox h1{
         font-size: 18px;
     }
+    .inbox h4{
+        font-size: 10px;
+    }
     .inbox p{
         font-size: 10px;
     }
+
+    .inbox-l h1{
+        font-size: 18px;
+    }
+    .inbox-l h4{
+        font-size: 10px;
+    }
+    .inbox-l p{
+        font-size: 10px;
+    }
 }
+
