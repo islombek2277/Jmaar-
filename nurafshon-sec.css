@@ -75,10 +75,9 @@
     padding: 15px 15px;
     width: 550px;   /* --------*/
     height: 500px;
-    /* background-color: rgba(0,0,0,0.4); */
-
+    background-color: rgba(0,0,0,0.4);
     align-content:space-evenly ;
-    
+    margin-top: 10px;
 }
 
 .inbox h1, h4, p{
