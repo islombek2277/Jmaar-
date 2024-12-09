@@ -25,7 +25,7 @@ body p, .a, i{
     font-size: 18px;
     font-weight: 300;
     font-family: "Montserrat", sans-serif;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
 }
 
 
