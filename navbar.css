@@ -2,11 +2,12 @@
     position: absolute;
     right: 20px;
     top: 20px;
-    max-width: 600px;
+    max-width: 620px;
+    /* background-color: #439b69; */
 }
 
 .dropdown{
-    max-width: 600px;
+    max-width: 620px;
     position: relative;
     margin: 2em;
     display: flex;
@@ -25,7 +26,7 @@
 }
 
 .select{
-    min-width: 250px;
+    min-width: 230px;
     gap: 2px;
     background-color: rgba(0,0,0,0.3);
     backdrop-filter: blur(8px);
@@ -38,6 +39,7 @@
     padding: 1em;
     cursor: pointer;
     transition: 0.3s;
+    /* background-color: #6481d1; */
 
 }
 
@@ -138,7 +140,7 @@
     }
 
     .select{
-        min-width: 160px;
+        min-width: 130px;
         gap: 2px;
         padding: 10px;
     }
@@ -152,7 +154,7 @@
 
     .navbar{
         position: absolute;
-        right: 6px;
+        right: 25px;
         top: 6px;
         max-width: 270px;
     }
@@ -174,19 +176,19 @@
 @media screen and (max-width:400px) {
 
     .select, .select a{
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .navbar{
         position: absolute;
-        right: 6px;
+        right: 35px;
         top: 6px;
-        max-width: 220px;
+        max-width: 250px;
     }
     
     .dropdown{
         max-width: 200px;
-        margin: 10px;
+        margin: 8px;
     }
     .menu {
         max-width: 200px;

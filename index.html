@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./aparts.css">
     <link rel="stylesheet" href="./social-sec.css">
     <link rel="stylesheet" href="./navbar.css">
+    <link rel="stylesheet" href="./selector.css">
     <!-- <link rel="stylesheet" href="./in-icons.css"> -->
 
     <!-- font-link -->
@@ -57,15 +58,26 @@
                     <li><a href="#fabrika" id="nav-item-3">FACTORY AHK производствa мебели</a></li>
                     <li><a href="#zavod" id="nav-item-4">Nature Grow производствa мебели</a></li>
                      <!--  translate button  -->
-                        <button onclick="changeLanguage('en')">Inglizcha</button>
-                        <button onclick="changeLanguage('ru')">Ruscha</button>
+                        
                 </ul>
                 <div class="select">
                     <a href="#kontact" id="contact"><span class="selected" >Контакт</span></a>
                 </div>
-            </div>
 
-           
+                <!-- <button onclick="changeLanguage('en')">EN</button>
+                <button onclick="changeLanguage('ru')">RU</button> -->
+
+
+                <header class="site-header">
+                    <div class="container-free">
+                        <select onchange="changeLanguage(this.value)">
+                            <option value="ru" selected>RU</option>
+                            <option value="en" >EN</option>
+                        </select>
+                    </div>
+                </header>
+
+            </div>
         </div>
 
             <!-- about -->
