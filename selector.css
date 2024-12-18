@@ -17,9 +17,10 @@
 }
 
 
-select, textarea {
+select{
     background-color: rgba(0,0,0,0.3);
     backdrop-filter: blur(8px);
+    border: none;
     border-radius: 0.5em;
     padding: 10px 10px;
     font-size: .9rem;
@@ -27,7 +28,9 @@ select, textarea {
     color: whitesmoke;
 }
 
-
+select:hover{
+    cursor: pointer;
+}
 
 
 
@@ -51,7 +54,7 @@ select, textarea {
     }
     
     
-    select, textarea {
+    select{
         background-color: rgba(0,0,0,0.3);
         backdrop-filter: blur(8px);
         border-radius: 0.5em;
@@ -83,7 +86,7 @@ select, textarea {
     }
     
     
-    select, textarea {
+    select{
         background-color: rgba(0,0,0,0.3);
         backdrop-filter: blur(8px);
         border-radius: 0.5em;
@@ -114,7 +117,7 @@ select, textarea {
     }
     
     
-    select, textarea {
+    select{
         background-color: rgba(0,0,0,0.3);
         backdrop-filter: blur(8px);
         border-radius: 0.5em;
