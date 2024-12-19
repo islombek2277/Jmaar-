@@ -102,7 +102,7 @@ const translations = {
 
 
 // ------------infra nature grow section translate
-"infra-grow-1": "Инфраструктура",
+"infra-grow-1": "Infrastructure",
 "infra-grow-2": "24 000 м² hangar",
 "infra-grow-3": "2 robots",
 "infra-grow-4": "8 conveyor belts",
