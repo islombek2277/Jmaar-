@@ -18,7 +18,7 @@ const translations = {
     "sq-6": "Built",
 
     // ----------nurafshon section translate---------
-    "nur-1": "Nurafshon Residential Complex",
+    "nur-1": "Nurafshon residential complex",
     "nur-2": "Its total area is 4 900 m²",
     "nur-3": "Start of construction: 2021 ",
     "nur-4": "Completion of construction: 2024 ",
