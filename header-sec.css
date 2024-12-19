@@ -194,7 +194,7 @@ body p, .a, i{
     }
     .about p{
         padding: 13px;
-        line-height: 3px;
+        line-height: normal;
     }
     .about{
         width: 80%;
